@@ -1,0 +1,259 @@
+html,
+body {
+    height: 100%;
+}
+
+header {
+      margin: 0;
+      padding:0;
+      border-radius: 0;
+      padding-top:100px;
+    }
+
+footer {
+    margin: 0;
+	padding: 40px;
+    text-align: center;
+    font-weight: 900;
+    background-color: #D20808;
+    color: #fff;
+}
+
+footer a, footer a:hover {
+	color: #fff;
+    text-decoration: none;
+}
+
+
+iframe{
+	width: 100%; overflow:hidden;
+}
+
+audio{
+	margin:0; padding:0;
+	width:100%; height:auto;
+}
+
+section {
+  color: #000;
+  min-height: 400px;
+  height: auto !important;
+  height: 100%;
+  padding-top:100px;
+}
+
+label{
+	font-size:18px;
+	}
+
+.card a, .card a:hover, .card a:visited, .card a:focus {
+    font-weight:bold;
+	color: #1E90FF;
+	text-decoration: none;
+}
+.card a:hover{
+	color: #008000;
+	/*text-decoration: underline;*/
+}
+.card a:active, .card a:focus{
+outline:none;
+}
+
+/* MODAL SINGOLA IMMAGINE */
+.w3-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+.w3-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
+.w3-display-topright{position:absolute;right:0;top:0}
+
+
+/* FONT E TITOLI*/
+
+.w3-lobster {
+    font-family: "Lobster", serif;
+}
+.titsez {
+font-family: "Lobster", serif;
+font-size: 60px;
+}
+
+.titpost {
+font-weight:normal;
+font-size: 72px;
+letter-spacing:-7px;
+line-height: 1em;
+}
+.titblg {
+font-weight:normal;
+font-size: 50px;
+letter-spacing:-4px;
+line-height: 1em;
+}
+.post{
+	font-size: 20px;
+	text-align: justify;
+	line-height: 1.5em;
+}
+
+
+/* PARALLAX SFONDI */
+.bg-0 {
+	background: #eee url('../sfondi/nodo.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.bg-1 {
+	background: #eee url('../sfondi/wp_explore.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.bg-2 {
+	background: #eee url('../sfondi/notte.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.bg-about {
+	background: #eee url('../sfondi/nodo.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.bg-work {
+	background: #eee url('../sfondi/nodo.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+/* CAROUSEL */
+	header img{
+	width:auto; min-height:450px;max-height:600px;
+	}
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+	.modal-dialog {}
+	.thumbnail {margin-bottom:6px;}
+	.carousel-control.left,.carousel-control.right{
+		background-image:none;
+		margin-top:10%;
+		width:5%;
+	}
+  
+/* BLOG CARD */ 
+.index-content a:hover{
+    color:black;
+    text-decoration:none;
+}
+.index-content{
+    margin-bottom:20px;
+    padding:50px 0px;
+    
+}
+.index-content .row{
+    margin-top:20px;
+}
+.index-content a{
+    color: black;
+}
+.index-content .card{
+    background-color: #FFFFFF;
+    padding:0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius:4px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+
+}
+.index-content .card:hover{
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+    color:black;
+}
+.index-content .card img{
+    width:100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.index-content .card h4{
+    margin:20px;
+}
+.index-content .card p{
+    margin:20px;
+    opacity: 0.65;
+}
+.index-content .blue-button{
+    width: 100px;
+    -webkit-transition: background-color 1s , color 1s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 1s , color 1s;
+    min-height: 20px;
+    background-color: #002E5B;
+    color: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: lighter;
+    margin: 0px 20px 15px 20px;
+    padding: 5px 0px;
+    display: inline-block;
+}
+.index-content .blue-button:hover{
+    background-color: #dadada;
+    color: #002E5B;
+}
+@media (max-width: 768px) {
+
+    .index-content .col-lg-4 {
+        margin-top: 20px;
+    }
+}
+
+/* TYPEWRITING EFFECT */
+.output {
+display:none;
+}
+
+/* ACCORDION */
+button.accordion {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 4px;
+    width: 100%;
+    border:none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-bottom:10px;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #FFFFCC; 
+}
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+}
